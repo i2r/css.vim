@@ -1,0 +1,4 @@
+# css.vim from vim 7.3 package
+
+Modifications to resolve issues with wrong highlighting for
+vertical-align, text-shadow, etc.
