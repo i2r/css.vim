@@ -109,7 +109,8 @@ syn keyword cssColorAttr contained center scroll fixed
 syn match cssColorAttr contained "\<repeat\(-[xy]\)\=\>"
 syn match cssColorAttr contained "\<no-repeat\>"
 
-syn match cssTextProp "\<\(\(word\|letter\)-spacing\|text\(-\(decoration\|transform\|align\|index\|shadow\)\)\=\|user-modify\|user-select\|vertical-align\|unicode-bidi\|line-height\)\>"
+syn match cssTextProp "\<\(\(word\|letter\)-spacing\|text\(-\(decoration\|transform\|align\|index\|shadow\)\)\=\|user-modify\|vertical-align\|unicode-bidi\|line-height\)\>"
+syn match cssTextProp "user-select\>"
 syn match cssTextAttr contained "\<line-through\>"
 syn match cssTextAttr contained "\<text-indent\>"
 syn match cssTextAttr contained "\<\(text-\)\=\(top\|bottom\)\>"
